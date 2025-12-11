@@ -9,21 +9,35 @@
 <body>
 
     <main style="grid-area: main;">
+        <header><h1>Pomodoro Timer</h1></header>
+
         <section id="configuration-grid-container">
             <section id="time-configuration-container">
-                <div class="field-container">
-                    <label for="time">Focus: </label>
-                    <input type="time" id="time">
+                <div>
+                    <h4>Focus</h4>
+                    <div class="field-container">
+                        <input type="number" class="focus-time">
+                        <input type="number" class="focus-time">
+                        <input type="number" class="focus-time">
+                    </div>
                 </div>
-                <div class="field-container">
-                    <label for="time">Break: </label>
-                    <input type="time" id="time">
+                <div>
+                    <h4>Break</h4>
+                    <div class="field-container">
+                        <input type="number" class="break-time">
+                        <input type="number" class="break-time">
+                        <input type="number" class="break-time">
+                    </div>
                 </div>
             </section>
 
             <section id="timer-container">
-                <span>00:00</span>
+                <span>00:00:00</span>
             </section>
+        </section>
+
+        <section id="buttons-flex-container">
+            <button>Start</button>
         </section>
 
     </main>
