@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>🍅 Pomodoro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,31 +16,32 @@
                 <div>
                     <h4>Focus</h4>
                     <div class="field-container">
-                        <input type="number" class="focus-time">
-                        <input type="number" class="focus-time">
-                        <input type="number" class="focus-time">
+                        <input type="number" class="focus-time" class="num-field">
+                        <input type="number" class="focus-time" class="num-field">
+                        <input type="number" class="focus-time" class="num-field">
                     </div>
                 </div>
                 <div>
                     <h4>Break</h4>
                     <div class="field-container">
-                        <input type="number" class="break-time">
-                        <input type="number" class="break-time">
-                        <input type="number" class="break-time">
+                        <input type="number" class="break-time" class="num-field">
+                        <input type="number" class="break-time" class="num-field">
+                        <input type="number" class="break-time" class="num-field">
                     </div>
                 </div>
             </section>
 
             <section id="timer-container">
-                <span>00:00:00</span>
+                <span id="timer">00:00:00</span>
             </section>
         </section>
 
         <section id="buttons-flex-container">
-            <button>Start</button>
+            <button id="start-btn">Start</button>
         </section>
-
     </main>
+
+    <script src="script.js"></script>
     
 </body>
 </html>

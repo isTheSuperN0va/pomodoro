@@ -46,9 +46,6 @@ main #configuration-grid-container {
 
     border-radius: 20px;
 
-    display: flex;
-    flex-direction: column;
-
     gap: 20px;
 
     padding: 20px;
@@ -112,7 +109,7 @@ main section .field-container input {
 
 
     border-radius: 12px;
-    background-color: var(--light-bg);
+    background-color: var(--bg);
 }
 
 #buttons-flex-container button:hover {cursor: pointer; }
